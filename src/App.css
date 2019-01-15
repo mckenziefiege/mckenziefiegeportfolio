@@ -1,1 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.name-header {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.name-header-main {
+  display: block;
+  font-size: 45px;
+  letter-spacing: 30px;
+  padding-bottom: 5px;
+}
+
+.name-header-sub {
+  display: block;
+  font-size: 15px;
+  letter-spacing: 20px;
+  font-weight: 100;
+}
+
+.head-shot {
+  border-radius: 100px;
+}
