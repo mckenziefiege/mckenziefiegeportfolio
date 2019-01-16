@@ -9,10 +9,12 @@
 body {
   padding: 20px;
   font-family: 'Lato', sans-serif;
+  color: #777
 }
 
 .name-header {
   text-transform: uppercase;
+  text-align: center;
 }
 
 .name-header-main {
@@ -20,6 +22,7 @@ body {
   font-size: 45px;
   letter-spacing: 30px;
   padding-bottom: 5px;
+
 }
 
 .name-header-sub {
@@ -35,20 +38,21 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center; */
+  text-align: center;
 }
 
 .head-shot {
   padding: 20px;
 }
 
+.media-icon {
+  max-width: 50px;
+  opacity: 0.9;
+}
+
 .programming-knowledge-box {
   text-align: center;
   padding: 10px;
-}
-
-.bio {
-  width: 50vw;
-  text-align: center;
 }
 
 .h2-headers {
@@ -58,6 +62,15 @@ body {
   letter-spacing: 15px;
   font-weight: 100;
   text-align: center;
+}
+
+.bio {
+  margin: 30px;
+}
+
+.bio-span {
+  display: block;
+
 }
 
 .skill-list {
