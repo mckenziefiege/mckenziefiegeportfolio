@@ -7,14 +7,17 @@
 }
 
 body {
-  padding: 20px;
   font-family: 'Lato', sans-serif;
-  color: #777
+  color: #777;
 }
 
 .name-header {
   text-transform: uppercase;
   text-align: center;
+  background-color: rgba(193, 205, 193, .8);
+  padding: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .name-header-main {
@@ -22,11 +25,12 @@ body {
   font-size: 45px;
   letter-spacing: 30px;
   padding-bottom: 5px;
+  margin: 10px;
 }
 
 .name-header-sub {
   display: block;
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 15px;
   font-weight: 100;
 }
@@ -37,6 +41,7 @@ body {
 
 .head-shot {
   padding: 20px;
+  margin: 20px;
 }
 
 .media-icon {
@@ -53,7 +58,7 @@ body {
 .h2-headers {
   text-transform: uppercase;
   letter-spacing: 10px;
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 15px;
   font-weight: 100;
   text-align: center;

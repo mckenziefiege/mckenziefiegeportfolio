@@ -20,10 +20,10 @@ class AboutMe extends Component {
         </div>
 
         <div>
-          <img src={Instagram} alt="Instagram" className="media-icon"/>
-          <img src={LinkedIn} alt="LinkedIn" className="media-icon"/>
-          <img src={Medium} alt="Medium Blog" className="media-icon"/>
-          <img src={GitHub} alt="GitHub" className="media-icon"/>
+          <a target="_blank" href="https://github.com/mckenziefiege"><img src={GitHub} alt="LinkedIn" className="media-icon"/></a>
+          <a target="_blank" href="https://medium.com/@mckenziefiege"><img src={Medium} alt="Medium Blog" className="media-icon"/></a>
+          <a target="_blank" href="https://www.linkedin.com/in/mckenziefiege"><img src={LinkedIn} alt="GitHub" className="media-icon"/></a>
+          <a target="_blank" href="https://www.instagram.com/mckenziefiege/"><img src={Instagram} alt="Instagram" className="media-icon"/></a>
         </div>
 
         <div className="bio">
