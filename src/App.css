@@ -20,7 +20,6 @@ body {
   font-size: 45px;
   letter-spacing: 30px;
   padding-bottom: 5px;
-  position: relative;
 }
 
 .name-header-sub {
@@ -28,19 +27,17 @@ body {
   font-size: 15px;
   letter-spacing: 20px;
   font-weight: 100;
-  position: relative;
 }
 
 .about-me-box {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: center; */
 }
 
 .head-shot {
   border-radius: 100px;
-  position: relative;
   padding: 20px;
 }
