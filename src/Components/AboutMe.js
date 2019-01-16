@@ -33,7 +33,6 @@ class AboutMe extends Component {
             When i'm not coding, I enjoy taking photos, tending to my many plants and petting dogs.
           </span>
         </div>
-
       </div>
     )
   }

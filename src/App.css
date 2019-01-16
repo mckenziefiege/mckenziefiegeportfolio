@@ -22,7 +22,6 @@ body {
   font-size: 45px;
   letter-spacing: 30px;
   padding-bottom: 5px;
-
 }
 
 .name-header-sub {
@@ -33,11 +32,6 @@ body {
 }
 
 .about-me-box {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; */
   text-align: center;
 }
 
@@ -53,6 +47,7 @@ body {
 .programming-knowledge-box {
   text-align: center;
   padding: 10px;
+  margin: 50px;
 }
 
 .h2-headers {
@@ -62,6 +57,7 @@ body {
   letter-spacing: 15px;
   font-weight: 100;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .bio {
@@ -70,7 +66,6 @@ body {
 
 .bio-span {
   display: block;
-
 }
 
 .skill-list {
@@ -78,11 +73,21 @@ body {
   font-weight: 100;
   letter-spacing: 3px;
   padding: 20px;
+  margin-top: 30px;
 }
 
-
-.project-titles {
+.project-container {
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 3px;
+}
+
+.project-card {
+  margin: 15px;
+  text-align: center;
+  margin: 20px;
+}
+
+.project-title {
+  margin: 20px;
 }
