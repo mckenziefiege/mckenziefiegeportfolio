@@ -7,14 +7,17 @@
 }
 
 body {
-  padding: 20px;
   font-family: 'Lato', sans-serif;
-  color: #777
+  color: #777;
 }
 
 .name-header {
   text-transform: uppercase;
   text-align: center;
+  background-color: rgba(193, 205, 193, .8);
+  padding: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .name-header-main {
@@ -22,27 +25,23 @@ body {
   font-size: 45px;
   letter-spacing: 30px;
   padding-bottom: 5px;
-
+  margin: 10px;
 }
 
 .name-header-sub {
   display: block;
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 15px;
   font-weight: 100;
 }
 
 .about-me-box {
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; */
   text-align: center;
 }
 
 .head-shot {
   padding: 20px;
+  margin: 20px;
 }
 
 .media-icon {
@@ -53,15 +52,17 @@ body {
 .programming-knowledge-box {
   text-align: center;
   padding: 10px;
+  margin: 50px;
 }
 
 .h2-headers {
   text-transform: uppercase;
   letter-spacing: 10px;
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 15px;
   font-weight: 100;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .bio {
@@ -70,7 +71,6 @@ body {
 
 .bio-span {
   display: block;
-
 }
 
 .skill-list {
@@ -78,11 +78,21 @@ body {
   font-weight: 100;
   letter-spacing: 3px;
   padding: 20px;
+  margin-top: 30px;
 }
 
-
-.project-titles {
+.project-container {
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 3px;
+}
+
+.project-card {
+  margin: 15px;
+  text-align: center;
+  margin: 20px;
+}
+
+.project-title {
+  margin: 20px;
 }
