@@ -5,10 +5,13 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <p>Projects</p>
-        <h2>Plant Diary</h2>
-        <h2>Turbo Typing</h2>
-        <h2>Novel Finds</h2>
+        <h2 className="h2-headers">Projects</h2>
+
+        <div className="project-titles">
+          <p>Plant Diary</p>
+          <p>Turbo Typing</p>
+          <p>Novel Finds</p>
+        </div>
       </div>
     )
   }
