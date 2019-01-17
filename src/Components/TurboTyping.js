@@ -5,7 +5,7 @@ class TurboTyping extends Component {
   render(){
     return (
       <div>
-        Welcome to pTurboTyping!!!!
+        Welcome to TurboTyping!!!!
       </div>
     )
   }
