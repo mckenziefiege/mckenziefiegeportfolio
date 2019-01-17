@@ -10,11 +10,6 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="about-me-box">
-        <h1 className="name-header">
-          <span className="name-header-main">McKenzie Fiege</span>
-          <span className="name-header-sub">Full Stack Web Developer</span>
-        </h1>
-
         <div  className="image-box">
           <img src={headShot} alt="head shot" className="head-shot" height="400px"/>
         </div>

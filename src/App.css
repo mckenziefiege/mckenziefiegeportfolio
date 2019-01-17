@@ -14,15 +14,20 @@ body {
 .name-header {
   text-transform: uppercase;
   text-align: center;
-  background-color: rgba(193, 205, 193, .8);
+  background-color: #888888;
   padding: 10px;
   padding-bottom: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  color: #fff;
 }
 
 .name-header-main {
   display: block;
-  font-size: 45px;
+  font-size: 25px;
   letter-spacing: 30px;
   padding-bottom: 5px;
   margin: 10px;
@@ -30,18 +35,20 @@ body {
 
 .name-header-sub {
   display: block;
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 15px;
   font-weight: 100;
 }
 
 .about-me-box {
   text-align: center;
+  padding-top: 150px;
 }
 
 .head-shot {
-  padding: 20px;
+  padding: 10px;
   margin: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
 
 .media-icon {
@@ -85,12 +92,19 @@ body {
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 3px;
+  position: relative;
+  width: 70%;
+  margin: auto;
 }
 
 .project-card {
-  margin: 15px;
+/*  margin: 15px;
   text-align: center;
   margin: 20px;
+  border-style: solid;
+  max-width: 55vw;
+  display: inline-block;
+  padding: 40px; */
 }
 
 .project-title {
