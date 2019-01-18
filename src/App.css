@@ -180,3 +180,17 @@ body {
 .project-links {
   color: #777;
 }
+
+.menu {
+  position: fixed;
+  z-index: 1;
+  float: right;
+  color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-transform: uppercase;
+}
