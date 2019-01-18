@@ -6,6 +6,10 @@ class PlantDiary extends Component {
     return (
       <div className="project-page">
         <h2 className="h2-headers">Plant Diary</h2>
+        <div className="project-links-div">
+          <a className="project-links" href="https://github.com/mckenziefiege/plant_diary">GitHub</a>
+          <a className="project-links" href="https://www.youtube.com/watch?v=3fGJ52SJP-4&feature=youtu.be">Video Demo</a>
+        </div>
         <p className="project-description">
           Plant Diary is designed to keep track of your house plants. Users can create an account and submit information about each of their plants.
           This application is made for plant lovers who need an easier way of keeping track of the plants in their home.
@@ -18,12 +22,12 @@ class PlantDiary extends Component {
           Bcrypt for authentication
         </p>
         <h3 className="project-h3-techstack">Tech Stack</h3>
+
         <div className="skill-list">
           <span>Ruby | </span>
           <span> Ruby on Rails</span>
         </div>
-        <a href="https://github.com/mckenziefiege/plant_diary">GitHub</a>
-        <a href="https://www.youtube.com/watch?v=3fGJ52SJP-4&feature=youtu.be">Video Demo</a>
+
         <img src="https://media.giphy.com/media/kERwcVBgLDiTeIdgUQ/giphy.gif" />
         <img src="https://media.giphy.com/media/6CBh8rzHDb0nrlSj4P/giphy.gif" />
       </div>
