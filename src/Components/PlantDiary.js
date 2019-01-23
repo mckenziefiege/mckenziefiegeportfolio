@@ -11,20 +11,14 @@ class PlantDiary extends Component {
           <a className="project-links" href="https://www.youtube.com/watch?v=3fGJ52SJP-4&feature=youtu.be">Video Demo</a>
         </div>
         <p className="project-description">
-          Plant Diary is designed to keep track of your house plants. Users can create an account and submit information about each of their plants.
-          This application is made for plant lovers who need an easier way of keeping track of the plants in their home.
-          Create a new account/ login with username and password if an existing user
-          Create, update and delete plants
-          When creating a new plant, users can include information concerning its species, location in home, watering schedule, image, and nickname
-          Create and delete diary entires about each plant
-          To do list on user homepage allows users to keep track of plant related tasks and check off when completed
-          Ruby on Rails using MVC pattern
-          Bcrypt for authentication
+          Plant Diary is made for plant lovers that need a simple solution for keeping track of their plants.
+          Users create an account with a username and password in order to being tracking plants. Features include, to do list, comment section for each plant to document the life of your plant, deleting and updating plant information, and a search bar to search through your plants by species.
+          I was inspired to create this app since I am a big plant lover and needed an easier way to document information related to each of my houseplants.
         </p>
         <h3 className="project-h3-techstack">Tech Stack</h3>
 
         <div className="skill-list">
-          <span>Ruby | </span>
+          <span> Ruby | </span>
           <span> Ruby on Rails</span>
         </div>
 

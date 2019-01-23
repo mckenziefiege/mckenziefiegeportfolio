@@ -7,12 +7,13 @@ class Skills extends Component {
       <div className="programming-knowledge-box">
         <h2 className="h2-headers">Programming Experience</h2>
         <div className="skill-list">
-          <span>JavaScript | </span>
+          <span> JavaScript | </span>
           <span> Ruby | </span>
           <span> Ruby on Rails | </span>
           <span> React | </span>
           <span> Redux | </span>
           <span> CSS | </span>
+          <span> Sass | </span>
           <span> HTML</span>
         </div>
       </div>
