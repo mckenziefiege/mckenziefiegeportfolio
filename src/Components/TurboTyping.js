@@ -11,18 +11,14 @@ class TurboTyping extends Component {
           <a className="project-links" href="https://www.youtube.com/watch?v=S0z5vgGLUnI">Video Demo</a>
         </div>
         <p className="project-description">
-          Turbo typing is a speed typing test that measures speed and accuracy with three different levels of prompt difficulty.
-          Users enter username and select difficult level for typing prompt
-          Press space to move onto next word
-          Words highlighted blue are the words the user is currently typing
-          Words highlighted red are words the user types incorrectly
-          Words that are gray are words the user has typed correctly
-          When time is up, user is given their score (words typed correctly - words typed incorrectly)
+          Turbo typing is a speed typing test that measures typing speed and accuracy with three different levels of prompt difficulty. Users enter their username and select a prompt difficulty level.
+          To being the timer, you must click the input field and begin typing. Words highlighted blue represent words the user is currently typing, red words were tyyped incorrectly and gray are correctly typed words. Must press the space button to move onto next word.
+          The backspace button is disabled so users can not go back and edit misspelled words. When time is up, a popup appears that reveals the user's score. This project was a fun way to experiment with pure JavaScript using a single page.
         </p>
         <h3 className="project-h3-techstack">Tech Stack</h3>
 
         <div className="skill-list">
-          <span>JavaScript | </span>
+          <span> JavaScript | </span>
           <span> Ruby on Rails</span>
         </div>
 
