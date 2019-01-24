@@ -2,6 +2,7 @@
   padding: 25rem 0;
   background-color: #eee;
   margin-top: -18rem;
+  padding-bottom: 20rem;
 
   &__content {
 
@@ -9,11 +10,16 @@
 
   &__image {
     float: right;
+    transition: transform .3s;
 
 
     .head-shot {
       box-shadow: 0 10px 20px rgba(0,0,0,.2);
       border-radius: 3px;
+    }
+
+    &:hover {
+      transform: translateY(-1.5rem) scale(1.03);
     }
   }
 
@@ -35,7 +41,21 @@
   }
 
   .media-icon {
+    transition: transform .3s;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
     max-width: 50px;
     opacity: 0.9;
+    box-shadow: 0 10px 20px rgba(0,0,0,.5);
+    margin: .5rem;
   }
+
+  .media-icon:hover {
+    transform: translateY(-.7rem) scale(1.2);
+  }
+
+
+
 }
