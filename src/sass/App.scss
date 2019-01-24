@@ -1,90 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
 
-body {
-  font-family: 'Lato', sans-serif;
-  color: #777;
-}
 
-.name-header {
-  text-transform: uppercase;
-  text-align: center;
-  background-color: #888888;
-  padding: 10px;
-  padding-bottom: 20px;
-  margin-bottom: 100px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-  color: #fff;
-}
+@import "layout/grid";
+@import "layout/header";
+@import "layout/about-me";
 
-.name-header-main {
-  display: block;
-  font-size: 25px;
-  letter-spacing: 30px;
-  padding-bottom: 5px;
-  margin: 10px;
-  animation: moveInLeft 1s ease-out;
-}
 
-.name-header-sub {
-  display: block;
-  font-size: 12px;
-  letter-spacing: 15px;
-  font-weight: 100;
-  animation: moveInRight 1s ease-out;
-}
 
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translate(-100px);
-  }
-  80% {
-    transform: translate(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translate(100px);
-  }
-  80% {
-    transform: translate(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
+/*
 .about-me-box {
   text-align: center;
   padding-top: 150px;
 }
 
-.head-shot {
-  padding: 10px;
-  margin: 20px;
-  box-shadow: 0 10px 20px rgba(0,0,0,.2);
-}
 
-.media-icon {
-  max-width: 50px;
-  opacity: 0.9;
-}
+
+*/
 
 .programming-knowledge-box {
   text-align: center;
@@ -128,15 +66,6 @@ body {
   margin: auto;
 }
 
-.project-card {
-/*  margin: 15px;
-  text-align: center;
-  margin: 20px;
-  border-style: solid;
-  max-width: 55vw;
-  display: inline-block;
-  padding: 40px; */
-}
 
 .project-title {
   margin: 20px;

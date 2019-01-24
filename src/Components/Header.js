@@ -7,12 +7,14 @@ class Header extends Component {
 
   render(){
     return (
-      <div>
-      <Link to='/'><h1 className="name-header">
-        <span className="name-header-main">McKenzie Fiege</span>
-        <span className="name-header-sub">Full Stack Web Developer</span>
-      </h1></Link>
-      <Menu />
+      <div class="header">
+        <div className="header__text-box">
+            <h1 className="heading">
+              <span className="heading__main">McKenzie Fiege</span>
+              <span className="heading__sub">Full Stack Web Developer</span>
+            </h1>
+        </div>
+        <Menu />
       </div>
     )
   }
