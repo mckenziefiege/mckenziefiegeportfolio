@@ -9,7 +9,7 @@ class AboutMe extends Component {
 
   render() {
     return (
-      <div className="about-me">
+      <div id="about-me" className="about-me">
       <h2 className="header-secondary">Welcome!</h2>
         <div className="about-me__content row">
             <div  className="about-me__image col-1-of-2">

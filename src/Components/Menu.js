@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Menu extends Component {
 
@@ -12,21 +13,28 @@ class Menu extends Component {
     })
   }
 
+
   renderOptions = () => {
      return (<ul>
-      <li>About Me</li>
-      <li>Projects</li>
-      <li>Resume</li>
-      <li>Contact</li>
+      <Link to="/"><li>Home</li></Link>
+      <Link to="about me"><li>About Me</li></Link>
+      <Link to="about-me"><li>Projects</li></Link>
+      <Link to="about-me"><li>Resume</li></Link>
+      <Link to="about-me"><li>Contact</li></Link>
     </ul>
     )
   }
 
   render() {
     return (
-      <div onClick={this.changeMenu}className="menu">
-        Menu
-        {this.state.options ? this.renderOptions() : null}
+      <div className="nav">
+        <div onClick={this.changeMenu}className="nav__menu">
+          Menu
+        </div>
+          <div className="nav__options">
+          {this.state.options ? this.renderOptions() : null}
+          </div>
+
       </div>
     )
   }

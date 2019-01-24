@@ -7,12 +7,15 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/menu";
+
 
 @import "layout/grid";
 @import "layout/header";
 @import "layout/about-me";
 @import "layout/skills";
 @import "layout/projects";
+@import "layout/project-page";
 @import "layout/footer";
 
 .h2-headers {
@@ -33,91 +36,3 @@
   margin-top: 30px;
   text-align: center;
 }
-
-
-/*
-.programming-knowledge-box {
-  text-align: center;
-  padding: 10px;
-  margin: 50px;
-}
-
-
-
-.bio {
-  margin: 30px;
-}
-
-.bio-span {
-  display: block;
-}
-
-
-
-.project-container {
-  font-size: 20px;
-  font-weight: 100;
-  letter-spacing: 3px;
-  position: relative;
-  width: 70%;
-  margin: auto;
-}
-
-
-.project-title {
-  margin: 20px;
-}
-
-.project-page {
-  margin: 120px 20px;
-}
-
-.project-description {
-  text-align: center;
-  padding: 0px 50px 0px 50px;
-}
-
-.project-h3-techstack {
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  font-size: 20px;
-  letter-spacing: 10px;
-  font-weight: 100;
-  text-align: center;
-  margin: 20px;
-}
-
-.project-links-div {
-  text-align: center;
-}
-
-.project-links:link,
-.project-links:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 15px 40px;
-  display: inline-block;
-  border-radius: 100px;
-  transition: all .2s;
-  position: relative;
-}
-
-.project-links {
-  color: #777;
-}
-
-.menu {
-  position: fixed;
-  z-index: 1;
-  float: right;
-  color: white;
-  padding: 10px;
-  padding-bottom: 20px;
-  margin-bottom: 100px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-transform: uppercase;
-}
-
-*/

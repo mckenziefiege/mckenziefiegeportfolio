@@ -61,6 +61,24 @@ body {
   text-transform: uppercase;
   font-weight: 200; }
 
+.nav {
+  transition: all .3s;
+  float: right;
+  color: #fff; }
+  .nav__menu {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    text-transform: uppercase; }
+  .nav__options {
+    font-size: 1.5rem; }
+  .nav li {
+    list-style: none; }
+  .nav__menu:hover {
+    cursor: pointer;
+    letter-spacing: 1rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -130,6 +148,16 @@ body {
   padding: 10rem;
   background-image: linear-gradient(to right, rgba(33, 95, 0, 0.5), rgba(228, 228, 217, 0.5)); }
 
+.skill-list__skill {
+  transition: transform .2s;
+  display: inline-block;
+  margin: 0 1.25rem 0 1.25rem; }
+
+.skill-list__skill:hover {
+  transform: translateY(-0.5rem) scale(1.1);
+  cursor: default;
+  font-weight: 400; }
+
 .projects {
   text-align: center;
   padding: 10rem;
@@ -137,7 +165,8 @@ body {
 
 .project-image {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-  transition: all .2s; }
+  transition: all .2s;
+  border-radius: 3px; }
 
 .project-image:hover {
   transform: translateY(-1rem) scale(1.02); }
@@ -146,6 +175,39 @@ body {
   font-size: 1.8rem;
   text-transform: uppercase;
   margin: 2rem; }
+
+.project-page {
+  text-align: center;
+  padding-top: 18rem;
+  background-color: #eee;
+  margin-top: -18rem; }
+  .project-page__description {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    padding: 5rem 18rem; }
+  .project-page__image {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 2rem; }
+  .project-page__image-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem; }
+  .project-page__tech-stack {
+    padding: 4rem;
+    background-image: linear-gradient(to right, rgba(33, 95, 0, 0.5), rgba(228, 228, 217, 0.5)); }
+  .project-page__tech-stack-header {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    font-weight: 100; }
+  .project-page__link:link, .project-page__link:visited {
+    font-size: 2rem;
+    color: #777;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 2rem; }
+  .project-page .project-page__link:hover {
+    transform: translateY(-0.7rem) scale(1.2); }
 
 .footer {
   text-align: center;
@@ -173,90 +235,3 @@ body {
   padding: 20px;
   margin-top: 30px;
   text-align: center; }
-
-/*
-.programming-knowledge-box {
-  text-align: center;
-  padding: 10px;
-  margin: 50px;
-}
-
-
-
-.bio {
-  margin: 30px;
-}
-
-.bio-span {
-  display: block;
-}
-
-
-
-.project-container {
-  font-size: 20px;
-  font-weight: 100;
-  letter-spacing: 3px;
-  position: relative;
-  width: 70%;
-  margin: auto;
-}
-
-
-.project-title {
-  margin: 20px;
-}
-
-.project-page {
-  margin: 120px 20px;
-}
-
-.project-description {
-  text-align: center;
-  padding: 0px 50px 0px 50px;
-}
-
-.project-h3-techstack {
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  font-size: 20px;
-  letter-spacing: 10px;
-  font-weight: 100;
-  text-align: center;
-  margin: 20px;
-}
-
-.project-links-div {
-  text-align: center;
-}
-
-.project-links:link,
-.project-links:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 15px 40px;
-  display: inline-block;
-  border-radius: 100px;
-  transition: all .2s;
-  position: relative;
-}
-
-.project-links {
-  color: #777;
-}
-
-.menu {
-  position: fixed;
-  z-index: 1;
-  float: right;
-  color: white;
-  padding: 10px;
-  padding-bottom: 20px;
-  margin-bottom: 100px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-transform: uppercase;
-}
-
-*/
