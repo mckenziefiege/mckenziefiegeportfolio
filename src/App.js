@@ -6,6 +6,7 @@ import HomePage from './Components/HomePage.js'
 import PlantDiary from './Components/PlantDiary.js'
 import NovelFinds from './Components/NovelFinds.js'
 import TurboTyping from './Components/TurboTyping.js'
+import Footer from './Components/Footer.js'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <Route path="/turbo-typing" component={TurboTyping}/>
         <Route path="/" component={HomePage}/>
       </Switch>
+      <Footer />
       </div>
     );
   }

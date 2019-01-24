@@ -147,6 +147,16 @@ body {
   text-transform: uppercase;
   margin: 2rem; }
 
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+  font-size: 1.3rem;
+  background-color: #999;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  font-weight: 300; }
+
 .h2-headers {
   text-transform: uppercase;
   letter-spacing: 10px;
