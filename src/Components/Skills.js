@@ -8,14 +8,14 @@ class Skills extends Component {
         <h2 className="h2-headers">Programming Experience</h2>
 
         <div className="skill-list">
-          <span className="skill-list__skill"> JavaScript | </span>
-          <span className="skill-list__skill"> Ruby | </span>
-          <span className="skill-list__skill"> Ruby on Rails | </span>
-          <span className="skill-list__skill"> React | </span>
-          <span className="skill-list__skill"> Redux | </span>
-          <span className="skill-list__skill"> CSS | </span>
-          <span className="skill-list__skill"> Sass | </span>
-          <span className="skill-list__skill"> HTML</span>
+          <p className="skill-list__skill">JavaScript</p>&#124;
+          <p className="skill-list__skill">Ruby</p>&#124;
+          <p className="skill-list__skill">Ruby on Rails</p>&#124;
+          <p className="skill-list__skill">React</p>&#124;
+          <p className="skill-list__skill">Redux</p>&#124;
+          <p className="skill-list__skill">CSS</p>&#124;
+          <p className="skill-list__skill">Sass</p>&#124;
+          <p className="skill-list__skill">HTML</p>
         </div>
       </div>
     )

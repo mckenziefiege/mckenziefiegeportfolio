@@ -1,0 +1,51 @@
+.project-page {
+  text-align: center;
+  padding-top: 18rem;
+  background-color: #eee;
+  margin-top: -18rem;
+
+  &__description {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    padding: 5rem 18rem;
+  }
+
+  &__image {
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    margin: 2rem;
+  }
+
+  &__image-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  &__tech-stack {
+    padding: 4rem;
+    background-image: linear-gradient(to right, rgba(33, 95, 0, 0.5), rgba(228, 228, 217, .5));
+  }
+
+  &__tech-stack-header {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    font-weight: 100;
+  }
+
+
+  &__link:link,
+   &__link:visited {
+     font-size: 2rem;
+     color: #777;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 2rem;
+
+
+  }
+
+  .project-page__link:hover {
+    transform: translateY(-.7rem) scale(1.2);
+  }
+}

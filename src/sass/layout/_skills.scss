@@ -2,3 +2,19 @@
   padding: 10rem;
   background-image: linear-gradient(to right, rgba(33, 95, 0, 0.5), rgba(228, 228, 217, .5));
 }
+
+.skill-list {
+
+
+  &__skill {
+    transition: transform .2s;
+    display: inline-block;
+    margin: 0 1.25rem 0 1.25rem;
+  }
+}
+
+.skill-list__skill:hover {
+  transform: translateY(-.5rem) scale(1.1);
+  cursor: default;
+  font-weight: 400;
+}
