@@ -132,12 +132,20 @@ body {
 
 .projects {
   text-align: center;
-  font-size: 1.6rem;
   padding: 10rem;
   background-color: #eee; }
 
 .project-image {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  transition: all .2s; }
+
+.project-image:hover {
+  transform: translateY(-1rem) scale(1.02); }
+
+.project-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 2rem; }
 
 .h2-headers {
   text-transform: uppercase;
