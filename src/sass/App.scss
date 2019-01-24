@@ -11,24 +11,8 @@
 @import "layout/grid";
 @import "layout/header";
 @import "layout/about-me";
-
-
-
-/*
-.about-me-box {
-  text-align: center;
-  padding-top: 150px;
-}
-
-
-
-*/
-
-.programming-knowledge-box {
-  text-align: center;
-  padding: 10px;
-  margin: 50px;
-}
+@import "layout/skills";
+@import "layout/projects";
 
 .h2-headers {
   text-transform: uppercase;
@@ -40,14 +24,6 @@
   margin-bottom: 50px;
 }
 
-.bio {
-  margin: 30px;
-}
-
-.bio-span {
-  display: block;
-}
-
 .skill-list {
   font-size: 15px;
   font-weight: 100;
@@ -56,6 +32,26 @@
   margin-top: 30px;
   text-align: center;
 }
+
+
+/*
+.programming-knowledge-box {
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+}
+
+
+
+.bio {
+  margin: 30px;
+}
+
+.bio-span {
+  display: block;
+}
+
+
 
 .project-container {
   font-size: 20px;
@@ -122,3 +118,5 @@
   width: 100%;
   text-transform: uppercase;
 }
+
+*/
