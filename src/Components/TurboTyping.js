@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
+import SimpleHeader from './SimpleHeader.js'
 
 class TurboTyping extends Component {
 
   render(){
     return (
+      <div>
+      <SimpleHeader />
       <div className="project-page">
         <h2 className="h2-headers">Turbo Typing</h2>
-        <div className="project-page__link-list">
-          <a target="_blank" className="project-page__link" href="https://github.com/mckenziefiege/speed-typing_frontend">GitHub</a>
-          <a target="_blank" className="project-page__link" href="https://www.youtube.com/watch?v=S0z5vgGLUnI">Video Demo</a>
+        <div className="link-list">
+          <a target="_blank" className="link-list__link" href="https://github.com/mckenziefiege/speed-typing_frontend">GitHub</a>
+          <a target="_blank" className="link-list__link" href="https://www.youtube.com/watch?v=S0z5vgGLUnI">Video Demo</a>
         </div>
         <div className="project-page__description">
           <p>
@@ -31,6 +34,7 @@ class TurboTyping extends Component {
           <img className="project-page__image" src="https://media.giphy.com/media/8mh9E4P4c4Oglyjpsa/giphy.gif" />
           <img className="project-page__image" src="https://media.giphy.com/media/6y1VGBsteUv9RGEvvw/giphy.gif" />
         </div>
+      </div>
       </div>
     )
   }

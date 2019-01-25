@@ -7,7 +7,9 @@ class Menu extends Component {
     options: false
   }
 
-  changeMenu = ()  => {
+  changeMenu = (e)  => {
+    console.log(e.target)
+    if (e.target)
     this.setState({
       options: !this.state.options
     })
@@ -17,8 +19,8 @@ class Menu extends Component {
   renderOptions = () => {
      return (<ul>
       <Link to="/"><li>Home</li></Link>
-      <Link to="about me"><li>About Me</li></Link>
-      <Link to="about-me"><li>Projects</li></Link>
+      <a href="#about-me"><li>About Me</li></a>
+      <a href="#projects"><li>Projects</li></a>
       <Link to="about-me"><li>Resume</li></Link>
       <Link to="about-me"><li>Contact</li></Link>
     </ul>
@@ -27,14 +29,16 @@ class Menu extends Component {
 
   render() {
     return (
-      <div className="nav">
-        <div onClick={this.changeMenu}className="nav__menu">
+      <div onClick={this.changeMenu} className="nav">
+      <div>
+        <div className="nav__menu">
           Menu
-        </div>
           <div className="nav__options">
           {this.state.options ? this.renderOptions() : null}
           </div>
+        </div>
 
+        </div>
       </div>
     )
   }
