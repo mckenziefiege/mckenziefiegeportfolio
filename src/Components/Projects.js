@@ -39,11 +39,10 @@ class Projects extends Component {
                   </Link>
               </div>
               </div>
-
               <div className="col-1-of-2">
               <div>
                 <p className="project-title">Event Planner</p>
-                  <Link to="/novel-finds">
+                  <Link to="/event-planner">
                     <img className="project-image" src={EventPlannerPhoto1} height="300px"/>
                   </Link>
               </div>

@@ -3,6 +3,10 @@ import SimpleHeader from './SimpleHeader.js'
 
 class TurboTyping extends Component {
 
+  componentDidMount() {
+   window.scrollTo(0, 0);
+ }
+
   render(){
     return (
       <div>

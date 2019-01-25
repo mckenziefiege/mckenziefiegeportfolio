@@ -5,6 +5,10 @@ import photo1 from '../img/165271D3-A606-4FB8-9309-C2D46ECAA181.JPG'
 
 class Contact extends Component {
 
+  componentDidMount() {
+   window.scrollTo(0, 0);
+ }
+
   render(){
     return (
       <div className="contact">
@@ -19,7 +23,7 @@ class Contact extends Component {
               <SocialMediaLinks />
             </div>
               <p>mckenziefiege@gmail.com</p>
-              <p>(585)490-9584</p>
+              <p>(585) 490-9584</p>
           </div>
         </div>
       </div>
