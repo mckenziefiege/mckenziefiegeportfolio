@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
+import SimpleHeader from './SimpleHeader.js'
 
 class PlantDiary extends Component {
 
   render(){
     return (
+      <div>
+      <SimpleHeader />
       <div className="project-page">
         <h2 className="h2-headers">Plant Diary</h2>
 
-          <div className="project-page__link-list">
-            <a target="_blank" className="project-page__link" href="https://github.com/mckenziefiege/plant_diary">GitHub</a>
-            <a target="_blank" className="project-page__link" href="https://www.youtube.com/watch?v=3fGJ52SJP-4&feature=youtu.be">Video Demo</a>
+          <div className="link-list">
+            <a target="_blank" className="link-list__link" href="https://github.com/mckenziefiege/plant_diary">GitHub</a>
+            <a target="_blank" className="link-list__link" href="https://www.youtube.com/watch?v=3fGJ52SJP-4&feature=youtu.be">Video Demo</a>
           </div>
 
           <div className="project-page__description">
@@ -33,6 +36,7 @@ class PlantDiary extends Component {
           </div>
           <div>
             <img className="project-page__image" src="https://media.giphy.com/media/6CBh8rzHDb0nrlSj4P/giphy.gif" />
+          </div>
           </div>
           </div>
       </div>

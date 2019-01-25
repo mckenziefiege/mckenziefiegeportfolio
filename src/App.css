@@ -61,8 +61,24 @@ body {
   text-transform: uppercase;
   font-weight: 200; }
 
+.simple-heading {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 200;
+  backface-visibility: hidden; }
+  .simple-heading__main {
+    display: block;
+    font-size: 5rem;
+    animation: moveInLeft 1s ease-out;
+    letter-spacing: 1.25rem; }
+  .simple-heading__sub {
+    display: block;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    animation: moveInRight 1s ease-out; }
+
 .nav {
-  transition: all .3s;
   float: right;
   color: #fff; }
   .nav__menu {
@@ -70,11 +86,19 @@ body {
     font-weight: 300;
     margin-right: 3rem;
     margin-top: 3rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    transition: all .3s; }
   .nav__options {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer; }
+    .nav__options :link,
+    .nav__options :visited {
+      color: #fff;
+      text-decoration: none; }
   .nav li {
-    list-style: none; }
+    list-style: none;
+    padding: .2rem; }
   .nav__menu:hover {
     cursor: pointer;
     letter-spacing: 1rem; }
@@ -178,9 +202,8 @@ body {
 
 .project-page {
   text-align: center;
-  padding-top: 18rem;
-  background-color: #eee;
-  margin-top: -18rem; }
+  padding-top: 5rem;
+  background-color: #eee; }
   .project-page__description {
     font-size: 1.8rem;
     line-height: 3rem;
@@ -200,14 +223,13 @@ body {
     font-size: 2rem;
     letter-spacing: 1rem;
     font-weight: 100; }
-  .project-page__link:link, .project-page__link:visited {
-    font-size: 2rem;
-    color: #777;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin: 2rem; }
-  .project-page .project-page__link:hover {
-    transform: translateY(-0.7rem) scale(1.2); }
+
+.link-list__link {
+  font-size: 2rem;
+  color: #777;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 2rem; }
 
 .footer {
   text-align: center;
@@ -218,6 +240,15 @@ body {
   text-transform: uppercase;
   letter-spacing: .5rem;
   font-weight: 300; }
+
+.simple-header {
+  height: 15vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(153, 153, 153, 0.8), rgba(255, 255, 255, 0.7));
+  background-position: top;
+  text-align: center; }
+  .simple-header__text-box {
+    text-align: center; }
 
 .h2-headers {
   text-transform: uppercase;

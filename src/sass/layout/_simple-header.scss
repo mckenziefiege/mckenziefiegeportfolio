@@ -1,0 +1,14 @@
+.simple-header {
+  height: 15vh;
+  width: 100%;
+  background-image: linear-gradient(
+  to right bottom,
+  rgba(#999, 0.8),
+  rgba(#ffffff, 0.7));
+  background-position: top;
+  text-align: center;
+
+  &__text-box {
+    text-align: center;
+  }
+}

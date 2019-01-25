@@ -1,8 +1,7 @@
 .project-page {
   text-align: center;
-  padding-top: 18rem;
+  padding-top: 5rem;
   background-color: #eee;
-  margin-top: -18rem;
 
   &__description {
     font-size: 1.8rem;
@@ -32,20 +31,15 @@
     letter-spacing: 1rem;
     font-weight: 100;
   }
+}
 
+.link-list {
 
-  &__link:link,
-   &__link:visited {
-     font-size: 2rem;
-     color: #777;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin: 2rem;
-
-
-  }
-
-  .project-page__link:hover {
-    transform: translateY(-.7rem) scale(1.2);
+  &__link {
+    font-size: 2rem;
+    color: #777;
+   text-transform: uppercase;
+   text-decoration: none;
+   margin: 2rem;
   }
 }

@@ -1,6 +1,4 @@
-
 .nav {
-  transition: all .3s;
   float: right;
   color: #fff;
 
@@ -10,14 +8,24 @@
     margin-right: 3rem;
     margin-top: 3rem;
     text-transform: uppercase;
+    transition: all .3s;
   }
 
   &__options {
     font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+
+    :link,
+    :visited {
+      color: #fff;
+      text-decoration: none;
+    }
   }
 
   li {
     list-style: none;
+    padding: .2rem;
   }
 
   &__menu:hover {
