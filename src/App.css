@@ -208,9 +208,16 @@ body {
     font-size: 1.8rem;
     line-height: 3rem;
     padding: 5rem 18rem; }
+  .project-page__main-photo {
+    width: 65rem;
+    height: 40rem;
+    margin: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 3px; }
   .project-page__image {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    margin: 2rem; }
+    margin: 5rem;
+    border-radius: 3px; }
   .project-page__image-container {
     padding-top: 5rem;
     padding-bottom: 5rem; }
