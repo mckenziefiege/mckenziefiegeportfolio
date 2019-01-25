@@ -266,25 +266,31 @@ body {
     text-align: center; }
 
 .contact {
+  color: #fff;
   width: 100%;
-  height: 85vh;
-  background-color: #eee; }
-  .contact__photo {
-    width: 49rem;
-    height: 32rem;
-    margin: 5rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
-    transition: all .2s;
-    opacity: 0.95; }
-    .contact__photo:hover {
-      transform: translateY(-1.5rem) scale(1.04); }
+  height: 90vh;
+  background-color: #eee;
+  background-image: linear-gradient(to right bottom, rgba(171, 186, 171, 0.6), rgba(255, 255, 255, 0.6)), url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
+  background-size: cover;
+  background-position: top; }
   .contact__information {
     margin-top: 10rem;
-    float: right;
     font-size: 1.8rem;
     text-align: center;
     line-height: 3rem; }
+
+.resume {
+  padding: 10rem;
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(33, 95, 0, 0.5), rgba(228, 228, 217, 0.5)); }
+  .resume__image {
+    height: 80rem;
+    width: 65rem;
+    transition: all .2s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 3px; }
+    .resume__image:hover {
+      transform: translateY(-1rem) scale(1.02); }
 
 .h2-headers {
   text-transform: uppercase;
