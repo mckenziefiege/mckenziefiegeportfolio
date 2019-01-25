@@ -219,7 +219,11 @@ body {
   .project-page__image {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     margin: 5rem;
-    border-radius: 3px; }
+    border-radius: 3px;
+    height: 30rem;
+    transition: all .2s; }
+    .project-page__image:hover {
+      transform: translateY(-1.2rem) scale(1.02); }
   .project-page__image-container {
     padding-top: 5rem;
     padding-bottom: 5rem; }
@@ -277,7 +281,8 @@ body {
     margin-top: 10rem;
     float: right;
     font-size: 1.8rem;
-    text-align: center; }
+    text-align: center;
+    line-height: 3rem; }
 
 .h2-headers {
   text-transform: uppercase;
