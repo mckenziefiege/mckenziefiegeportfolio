@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import EventPlannerPhoto1 from '../img/Screen Shot 2019-01-25 at 12.02.44 PM.png'
 
 class Projects extends Component {
 
@@ -35,6 +36,15 @@ class Projects extends Component {
                 <p className="project-title">Novel Finds</p>
                   <Link to="/novel-finds">
                     <img className="project-image" src="https://user-images.githubusercontent.com/38592156/49903782-4854b480-fe36-11e8-87c7-08d1befc9b04.png" height="300px"/>
+                  </Link>
+              </div>
+              </div>
+
+              <div className="col-1-of-2">
+              <div>
+                <p className="project-title">Event Planner</p>
+                  <Link to="/novel-finds">
+                    <img className="project-image" src={EventPlannerPhoto1} height="300px"/>
                   </Link>
               </div>
               </div>

@@ -6,12 +6,14 @@ import PlantDiary from './Components/PlantDiary.js'
 import NovelFinds from './Components/NovelFinds.js'
 import TurboTyping from './Components/TurboTyping.js'
 import Footer from './Components/Footer.js'
+import Contact from './Components/Contact.js'
 
 class App extends Component {
   render() {
     return (
       <div>
       <Switch>
+        <Route path="/contact" component={Contact}/>
         <Route path="/plant-diary" component={PlantDiary}/>
         <Route path="/novel-finds" component={NovelFinds}/>
         <Route path="/turbo-typing" component={TurboTyping}/>

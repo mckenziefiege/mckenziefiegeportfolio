@@ -8,7 +8,7 @@
 @import "base/utilities";
 
 @import "components/menu";
-
+@import "components/link-icons";
 
 @import "layout/grid";
 @import "layout/header";
@@ -18,6 +18,7 @@
 @import "layout/project-page";
 @import "layout/footer";
 @import "layout/simple-header";
+@import "layout/contact";
 
 .h2-headers {
   text-transform: uppercase;

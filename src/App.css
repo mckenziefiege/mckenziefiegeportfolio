@@ -103,6 +103,20 @@ body {
     cursor: pointer;
     letter-spacing: 1rem; }
 
+.media .media-icon {
+  transition: transform .3s;
+  -webkit-shape-outside: circle(50% at 50% 50%);
+  shape-outside: circle(50% at 50% 50%);
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  max-width: 50px;
+  opacity: 0.9;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  margin: .5rem; }
+
+.media .media-icon:hover {
+  transform: translateY(-0.7rem) scale(1.2); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -155,18 +169,6 @@ body {
       margin-bottom: 5rem;
       line-height: 3rem;
       display: inline-block; }
-  .about-me .media-icon {
-    transition: transform .3s;
-    -webkit-shape-outside: circle(50% at 50% 50%);
-    shape-outside: circle(50% at 50% 50%);
-    -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
-    max-width: 50px;
-    opacity: 0.9;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    margin: .5rem; }
-  .about-me .media-icon:hover {
-    transform: translateY(-0.7rem) scale(1.2); }
 
 .programming-knowledge {
   padding: 10rem;
@@ -255,6 +257,26 @@ body {
   background-position: top;
   text-align: center; }
   .simple-header__text-box {
+    text-align: center; }
+
+.contact {
+  width: 100%;
+  height: 85vh;
+  background-color: #eee; }
+  .contact__photo {
+    width: 49rem;
+    height: 32rem;
+    margin: 5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    transition: all .2s;
+    opacity: 0.95; }
+    .contact__photo:hover {
+      transform: translateY(-1.5rem) scale(1.04); }
+  .contact__information {
+    margin-top: 10rem;
+    float: right;
+    font-size: 1.8rem;
     text-align: center; }
 
 .h2-headers {

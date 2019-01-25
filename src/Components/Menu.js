@@ -22,7 +22,7 @@ class Menu extends Component {
       <a href="#about-me"><li>About Me</li></a>
       <a href="#projects"><li>Projects</li></a>
       <Link to="about-me"><li>Resume</li></Link>
-      <Link to="about-me"><li>Contact</li></Link>
+      <Link to="/contact"><li>Contact</li></Link>
     </ul>
     )
   }
