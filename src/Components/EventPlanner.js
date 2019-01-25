@@ -25,8 +25,8 @@ class EventPlanner extends Component {
             </div>
             <div className="project-page__description">
               <p>
-                Event Planner was created to make event planning simpler. Users are able to create an account or login to their personal profile.
-                The home page shows the user's events they are attending. Individual event pages reveal event information, attendee list and a list of items attendees suggest.
+                Event Planner was created to make event planning simpler. Users are able to create an account and join events.
+                The user's home page shows the events they're attending while individual event pages show event information, attendee list and items that need to be brought.
               </p>
             </div>
             <div className="project-page__tech-stack">

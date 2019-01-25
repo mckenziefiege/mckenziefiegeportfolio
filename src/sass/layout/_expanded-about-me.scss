@@ -1,0 +1,41 @@
+.expanded-about-me {
+  height: 100%;
+  width: 100%;
+  background-color: #eee;
+
+  &__photo {
+    height: 50rem;
+    margin: 10rem;
+    margin-top: 2rem;
+    box-shadow: 0 20px 20px rgba(0,0,0,.5);
+    border-radius: 3px;
+    transition: all .3s;
+
+    &:hover {
+      transform: translateY(-1.2rem) scale(1.05);
+    }
+  }
+
+  &__header {
+    margin: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 10rem 4rem 10rem 4rem;
+    margin-top: -2rem;
+    line-height: 2.5rem;
+  }
+
+    &__left {
+      float: left;
+      width: 33.333333%;
+  }
+
+  &__right {
+    float: right;
+    width: 66.666667%;
+  }
+}
