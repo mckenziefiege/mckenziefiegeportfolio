@@ -9,10 +9,10 @@ class SocialMediaLinks extends Component {
   render() {
     return (
       <div className="media">
-        <a target="_blank" href="https://github.com/mckenziefiege"><img src={GitHub} alt="LinkedIn" className="media-icon"/></a>
-        <a target="_blank" href="https://medium.com/@mckenziefiege"><img src={Medium} alt="Medium Blog" className="media-icon"/></a>
-        <a target="_blank" href="https://www.linkedin.com/in/mckenziefiege"><img src={LinkedIn} alt="GitHub" className="media-icon"/></a>
-        <a target="_blank" href="https://www.instagram.com/mckenziefiege/"><img src={Instagram} alt="Instagram" className="media-icon"/></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/mckenziefiege"><img src={GitHub} alt="LinkedIn" className="media-icon"/></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@mckenziefiege"><img src={Medium} alt="Medium Blog" className="media-icon"/></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mckenziefiege"><img src={LinkedIn} alt="GitHub" className="media-icon"/></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/mckenziefiege/"><img src={Instagram} alt="Instagram" className="media-icon"/></a>
       </div>
     )
   }

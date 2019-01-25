@@ -79,13 +79,14 @@ body {
     animation: moveInRight 1s ease-out; }
 
 .nav {
-  float: right;
-  color: #fff; }
+  display: inline;
+  margin: 4rem;
+  color: #fff;
+  position: fixed;
+  z-index: 1000; }
   .nav__menu {
     font-size: 2rem;
     font-weight: 300;
-    margin-right: 3rem;
-    margin-top: 3rem;
     text-transform: uppercase;
     transition: all .3s; }
   .nav__options {
@@ -259,7 +260,8 @@ body {
   width: 100%;
   background-image: linear-gradient(to right bottom, rgba(153, 153, 153, 0.8), rgba(255, 255, 255, 0.7));
   background-position: top;
-  text-align: center; }
+  text-align: center;
+  padding-top: 2rem; }
   .simple-header__text-box {
     text-align: center; }
 

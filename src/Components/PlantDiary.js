@@ -15,12 +15,12 @@ class PlantDiary extends Component {
         <h2 className="h2-headers">Plant Diary</h2>
 
           <div className="link-list">
-            <a target="_blank" className="link-list__link" href="https://github.com/mckenziefiege/plant_diary">GitHub</a>
-            <a target="_blank" className="link-list__link" href="https://www.youtube.com/watch?v=3fGJ52SJP-4&feature=youtu.be">Video Demo</a>
+            <a target="_blank" rel="noopener noreferrer" className="link-list__link" href="https://github.com/mckenziefiege/plant_diary">GitHub</a>
+            <a target="_blank" rel="noopener noreferrer" className="link-list__link" href="https://www.youtube.com/watch?v=3fGJ52SJP-4&feature=youtu.be">Video Demo</a>
           </div>
 
           <div>
-          <img className="project-page__main-photo" src="https://user-images.githubusercontent.com/38592156/49955133-1db73a00-fed0-11e8-94e8-0f9b46ac0451.png"/>
+          <img className="project-page__main-photo" alt="Plant Diary 1" src="https://user-images.githubusercontent.com/38592156/49955133-1db73a00-fed0-11e8-94e8-0f9b46ac0451.png"/>
           </div>
 
           <div className="project-page__description">
@@ -42,10 +42,10 @@ class PlantDiary extends Component {
           </div>
           <div className="project-page__image-container">
           <div>
-            <img className="project-page__image" src="https://media.giphy.com/media/kERwcVBgLDiTeIdgUQ/giphy.gif" />
+            <img className="project-page__image" alt="Plant Diary 2" src="https://media.giphy.com/media/kERwcVBgLDiTeIdgUQ/giphy.gif" />
           </div>
           <div>
-            <img className="project-page__image" src="https://media.giphy.com/media/6CBh8rzHDb0nrlSj4P/giphy.gif" />
+            <img className="project-page__image" alt="Plant Diary 3" src="https://media.giphy.com/media/6CBh8rzHDb0nrlSj4P/giphy.gif" />
           </div>
           </div>
           </div>

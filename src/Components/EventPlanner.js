@@ -18,10 +18,10 @@ class EventPlanner extends Component {
         <div className="project-page">
           <h2 className="h2-headers">Event Planner</h2>
             <div className="link-list">
-              <a target="_blank" className="link-list__link" href="https://github.com/mckenziefiege/mod-4-final-project-frontend">GitHub</a>
+              <a target="_blank" rel="noopener noreferrer"className="link-list__link" href="https://github.com/mckenziefiege/mod-4-final-project-frontend">GitHub</a>
             </div>
             <div>
-              <img className="project-page__main-photo" src={EventPlannerPhoto1}/>
+              <img className="project-page__main-photo"  alt="event planner 4" src={EventPlannerPhoto1}/>
             </div>
             <div className="project-page__description">
               <p>
@@ -40,13 +40,13 @@ class EventPlanner extends Component {
             </div>
               <div className="project-page__image-container">
                 <div>
-                  <img className="project-page__image" src={EventPlannerPhoto2}/>
+                  <img className="project-page__image" alt="event planner 1" src={EventPlannerPhoto2}/>
                 </div>
                 <div>
-                  <img className="project-page__image" src={EventPlannerPhoto3}/>
+                  <img className="project-page__image" alt="event planner 2" src={EventPlannerPhoto3}/>
                 </div>
                 <div>
-                  <img className="project-page__image" src={EventPlannerPhoto4}/>
+                  <img className="project-page__image" alt="event planner 3" src={EventPlannerPhoto4}/>
                 </div>
               </div>
             </div>

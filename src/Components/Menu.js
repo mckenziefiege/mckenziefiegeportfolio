@@ -8,8 +8,6 @@ class Menu extends Component {
   }
 
   changeMenu = (e)  => {
-    console.log(e.target)
-    if (e.target)
     this.setState({
       options: !this.state.options
     })
@@ -30,15 +28,12 @@ class Menu extends Component {
   render() {
     return (
       <div onClick={this.changeMenu} className="nav">
-      <div>
-        <div className="nav__menu">
-          Menu
-          <div className="nav__options">
-          {this.state.options ? this.renderOptions() : null}
+          <div className="nav__menu">
+            Menu
+            <div className="nav__options">
+            {this.state.options ? this.renderOptions() : null}
+            </div>
           </div>
-        </div>
-
-        </div>
       </div>
     )
   }

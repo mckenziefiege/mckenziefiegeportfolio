@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch, withRouter } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import './App.css';
 import HomePage from './Components/HomePage.js'
 import PlantDiary from './Components/PlantDiary.js'
@@ -8,12 +8,14 @@ import TurboTyping from './Components/TurboTyping.js'
 import EventPlanner from './Components/EventPlanner.js'
 import Footer from './Components/Footer.js'
 import Contact from './Components/Contact.js'
+import Menu from './Components/Menu.js'
 
 class App extends Component {
 
   render() {
     return (
       <div>
+      <Menu />
         <Switch>
           <Route path="/contact" component={Contact}/>
           <Route path="/event-planner" component={EventPlanner}/>

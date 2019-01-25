@@ -3,7 +3,7 @@ import headShot from '../img/headshot.jpg'
 import SocialMediaLinks from './SocialMediaLinks.js'
 
 class AboutMe extends Component {
-  
+
   render() {
     return (
       <div id="about-me" className="about-me">

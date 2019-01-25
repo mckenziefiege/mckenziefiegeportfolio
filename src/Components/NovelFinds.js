@@ -15,12 +15,12 @@ class NovelFinds extends Component {
         <h2 className="h2-headers">Novel Finds</h2>
 
         <div className="link-list">
-          <a target="_blank" className="link-list__link" href="https://github.com/mckenziefiege/book_club_frontend">GitHub</a>
-          <a target="_blank" className="link-list__link" href="https://www.youtube.com/watch?v=7J5aMVx50gk&feature=youtu.be">Video Demo</a>
+          <a target="_blank" rel="noopener noreferrer" className="link-list__link" href="https://github.com/mckenziefiege/book_club_frontend">GitHub</a>
+          <a target="_blank" rel="noopener noreferrer" className="link-list__link" href="https://www.youtube.com/watch?v=7J5aMVx50gk&feature=youtu.be">Video Demo</a>
         </div>
 
         <div>
-          <img className="project-page__main-photo" src="https://user-images.githubusercontent.com/38592156/49903782-4854b480-fe36-11e8-87c7-08d1befc9b04.png" />
+          <img className="project-page__main-photo" alt="Novel Finds 1" src="https://user-images.githubusercontent.com/38592156/49903782-4854b480-fe36-11e8-87c7-08d1befc9b04.png" />
         </div>
 
         <div className="project-page__description">
@@ -42,10 +42,10 @@ class NovelFinds extends Component {
         </div>
 
           <div lassName="project-page__image-container">
-            <img className="project-page__image" src="https://media.giphy.com/media/2wV3AaFKqZ5C2n7xu8/giphy.gif" />
-            <img className="project-page__image" src="https://media.giphy.com/media/i3CZmDePQ03VoNH7jm/giphy.gif" />
-            <img className="project-page__image" src="https://media.giphy.com/media/1zgzGPOhQuMMQusV6N/giphy.gif" />
-            <img className="project-page__image" src="https://media.giphy.com/media/Bp3cXxhnuVAf6pXioD/giphy.gif" />
+            <img className="project-page__image" alt="Novel Finds 2" src="https://media.giphy.com/media/2wV3AaFKqZ5C2n7xu8/giphy.gif" />
+            <img className="project-page__image" alt="Novel Finds 3" src="https://media.giphy.com/media/i3CZmDePQ03VoNH7jm/giphy.gif" />
+            <img className="project-page__image" alt="Novel Finds 4" src="https://media.giphy.com/media/1zgzGPOhQuMMQusV6N/giphy.gif" />
+            <img className="project-page__image" alt="Novel Finds 5" src="https://media.giphy.com/media/Bp3cXxhnuVAf6pXioD/giphy.gif" />
           </div>
         </div>
         </div>
