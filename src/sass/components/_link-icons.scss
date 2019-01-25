@@ -1,0 +1,17 @@
+.media {
+  .media-icon {
+    transition: transform .3s;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    max-width: 50px;
+    opacity: 0.9;
+    box-shadow: 0 10px 20px rgba(0,0,0,.5);
+    margin: .5rem;
+  }
+
+  .media-icon:hover {
+    transform: translateY(-.7rem) scale(1.2);
+  }
+}
