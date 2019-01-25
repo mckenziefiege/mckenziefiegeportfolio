@@ -15,6 +15,10 @@ class NovelFinds extends Component {
           <a target="_blank" className="link-list__link" href="https://www.youtube.com/watch?v=7J5aMVx50gk&feature=youtu.be">Video Demo</a>
         </div>
 
+        <div>
+          <img className="project-page__main-photo" src="https://user-images.githubusercontent.com/38592156/49903782-4854b480-fe36-11e8-87c7-08d1befc9b04.png" />
+        </div>
+
         <div className="project-page__description">
           <p className="project-description">
             Novel Finds is an app to keep track of what you're reading, what you've read and to join book clubs in you're area. Users can create an account or log in with their username and password,
@@ -26,9 +30,9 @@ class NovelFinds extends Component {
         <div className="project-page__tech-stack">
           <h3 className="project-page__tech-stack-header">Tech Stack</h3>
           <div className="skill-list">
-            <p className="skill-list__skill">React</p>
-            <p className="skill-list__skill">Ruby on Rails</p>
-            <p className="skill-list__skill">Redux</p>
+            <p className="skill-list__skill">React</p>&#124;
+            <p className="skill-list__skill">Ruby on Rails</p>&#124;
+            <p className="skill-list__skill">Redux</p>&#124;
             <p className="skill-list__skill">Google Books API</p>
           </div>
         </div>

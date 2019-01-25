@@ -13,6 +13,12 @@ class TurboTyping extends Component {
           <a target="_blank" className="link-list__link" href="https://github.com/mckenziefiege/speed-typing_frontend">GitHub</a>
           <a target="_blank" className="link-list__link" href="https://www.youtube.com/watch?v=S0z5vgGLUnI">Video Demo</a>
         </div>
+
+        <div>
+          <img className="project-page__main-photo" src="https://user-images.githubusercontent.com/38592156/49956937-72f54a80-fed4-11e8-8e18-efea50917fdc.png"/>
+        </div>
+
+
         <div className="project-page__description">
           <p>
             Turbo typing is a speed typing test that measures typing speed and accuracy with three different levels of prompt difficulty. Users enter their username and select a prompt difficulty level.
@@ -24,7 +30,7 @@ class TurboTyping extends Component {
         <div className="project-page__tech-stack">
           <h3 className="project-page__tech-stack-header">Tech Stack</h3>
           <div className="skill-list">
-            <p className="skill-list__skill">JavaScript</p>
+            <p className="skill-list__skill">JavaScript</p>&#124;
             <p className="skill-list__skill">Ruby on Rails</p>
           </div>
         </div>
