@@ -1,12 +1,13 @@
 .nav {
-  float: right;
+  display: inline;
+  margin: 4rem;
   color: #fff;
+  position: fixed;
+  z-index: 1000;
 
   &__menu {
     font-size: 2rem;
     font-weight: 300;
-    margin-right: 3rem;
-    margin-top: 3rem;
     text-transform: uppercase;
     transition: all .3s;
   }

@@ -4,7 +4,7 @@ class Footer extends Component {
 
   render(){
     return (
-      <div class="footer">
+      <div className="footer">
         <p>created by McKenzie Fiege using react and sass &hearts;</p>
       </div>
     )

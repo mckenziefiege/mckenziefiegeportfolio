@@ -15,7 +15,7 @@ class Contact extends Component {
         <SimpleHeader />
           <div className="row">
           <div className="col-1-of-2">
-            <img className="contact__photo" src={photo1} />
+            <img className="contact__photo" src={photo1} alt="McKenzie" />
           </div>
           <div className="contact__information col-1-of-2">
           <h2 className="h2-headers">Get in touch</h2>
