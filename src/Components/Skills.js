@@ -5,7 +5,7 @@ class Skills extends Component {
   render(){
     return (
       <div className="programming-knowledge">
-        <h2 className="h2-headers">Programming Experience</h2>
+        <h2 className="h2-headers">Technical Skills</h2>
 
         <div className="skill-list">
           <p className="skill-list__skill">JavaScript</p>&#124;
