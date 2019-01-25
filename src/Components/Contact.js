@@ -13,11 +13,7 @@ class Contact extends Component {
     return (
       <div className="contact">
         <SimpleHeader />
-          <div className="row">
-          <div className="col-1-of-2">
-            <img className="contact__photo" src={photo1} alt="McKenzie" />
-          </div>
-          <div className="contact__information col-1-of-2">
+          <div className="contact__information">
           <h2 className="h2-headers">Get in touch</h2>
             <div>
               <SocialMediaLinks />
@@ -25,7 +21,6 @@ class Contact extends Component {
               <p>mckenziefiege@gmail.com</p>
               <p>(585) 490-9584</p>
           </div>
-        </div>
       </div>
     )
   }

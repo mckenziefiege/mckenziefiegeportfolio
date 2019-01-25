@@ -17,9 +17,9 @@ class Menu extends Component {
   renderOptions = () => {
      return (<ul>
       <Link to="/"><li>Home</li></Link>
-      <a href="#about-me"><li>About Me</li></a>
-      <a href="#projects"><li>Projects</li></a>
-      <Link to="about-me"><li>Resume</li></Link>
+      <Link to="/about-me"><li>About Me</li></Link>
+      <Link to="/projects"><li>Projects</li></Link>
+      <Link to="/resume"><li>Resume</li></Link>
       <Link to="/contact"><li>Contact</li></Link>
     </ul>
     )
