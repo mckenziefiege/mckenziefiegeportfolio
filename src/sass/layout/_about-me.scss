@@ -4,6 +4,10 @@
   margin-top: -18rem;
   padding-bottom: 20rem;
 
+  @include respond(tab-port) {
+       padding: 20rem 0;
+   }
+
   &__content {
 
   }
@@ -16,6 +20,10 @@
     .head-shot {
       box-shadow: 0 10px 20px rgba(0,0,0,.2);
       border-radius: 3px;
+
+      @include respond(phone) {
+           height: 10rem;
+       }
     }
 
     &:hover {

@@ -28,12 +28,24 @@
 
 html {
   font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   padding: 3rem;
   color: #777777; }
+  @media only screen and (max-width: 37.5em) {
+    body {
+      padding: 0; } }
 
 .heading {
   color: #fff;
@@ -154,12 +166,18 @@ body {
   background-color: #eee;
   margin-top: -18rem;
   padding-bottom: 20rem; }
+  @media only screen and (max-width: 56.25em) {
+    .about-me {
+      padding: 20rem 0; } }
   .about-me__image {
     float: right;
     transition: transform .3s; }
     .about-me__image .head-shot {
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
       border-radius: 3px; }
+      @media only screen and (max-width: 37.5em) {
+        .about-me__image .head-shot {
+          height: 10rem; } }
     .about-me__image:hover {
       transform: translateY(-1.5rem) scale(1.03); }
   .about-me__bio {
@@ -194,6 +212,9 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   transition: all .2s;
   border-radius: 3px; }
+  @media only screen and (max-width: 37.5em) {
+    .project-image {
+      height: 10rem; } }
 
 .project-image:hover {
   transform: translateY(-1rem) scale(1.02); }
