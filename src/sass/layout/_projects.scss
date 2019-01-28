@@ -3,12 +3,35 @@
   padding: 10rem;
   background-color: #eee;
 
+  @include respond (tab-land) {
+    padding: 0;
+  }
+
+  @include respond (tab-port) {
+    padding: 0;
+  }
+
+  @include respond (tab-port) {
+    padding: 0;
+  }
 }
 
 .project-image {
   box-shadow: 0 10px 20px rgba(0,0,0,.5);
   transition: all .2s;
   border-radius: 3px;
+
+  @include respond (tab-land) {
+    height: 22rem;
+  }
+
+  @include respond (tab-port) {
+    height: 26rem;
+  }
+
+  @include respond (tab-port) {
+    height: 20rem;
+  }
 }
 
 .project-image:hover {
