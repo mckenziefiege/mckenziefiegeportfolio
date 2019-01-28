@@ -427,31 +427,31 @@ body {
 .expanded-about-me {
   height: 100%;
   width: 100%;
-  background-color: #eee; }
+  background-color: #eee;
+  text-align: center; }
   .expanded-about-me__photo {
     height: 50rem;
-    margin: 10rem;
+    margin: 2rem;
     margin-top: 2rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
     border-radius: 3px;
     transition: all .3s; }
+    @media only screen and (max-width: 75em) {
+      .expanded-about-me__photo {
+        height: 50rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .expanded-about-me__photo {
+        height: 45rem; } }
     .expanded-about-me__photo:hover {
       transform: translateY(-1.2rem) scale(1.05); }
   .expanded-about-me__header {
-    margin: 3rem;
-    padding-bottom: 2rem; }
+    margin: 2rem; }
   .expanded-about-me__text {
     text-align: center;
     font-size: 1.7rem;
-    margin: 10rem 4rem 10rem 4rem;
+    margin: 5rem 2rem 5rem 2rem;
     margin-top: -2rem;
     line-height: 2.5rem; }
-  .expanded-about-me__left {
-    float: left;
-    width: 33.333333%; }
-  .expanded-about-me__right {
-    float: right;
-    width: 66.666667%; }
 
 .h2-headers {
   text-transform: uppercase;
