@@ -82,9 +82,11 @@ body {
   font-weight: 200; }
   @media only screen and (max-width: 56.25em) {
     .header-secondary {
+      padding-top: 5rem;
       font-size: 3rem; } }
   @media only screen and (max-width: 37.5em) {
     .header-secondary {
+      padding-top: 2rem;
       font-size: 2.5rem; } }
 
 .simple-heading {
@@ -208,15 +210,27 @@ body {
   background-color: #eee;
   margin-top: -18rem;
   padding-bottom: 20rem; }
+  @media only screen and (max-width: 75em) {
+    .about-me {
+      padding: 20rem 0;
+      margin-top: -15rem;
+      padding-bottom: 5rem; } }
   @media only screen and (max-width: 56.25em) {
     .about-me {
-      padding: 20rem 0; } }
+      padding: 10rem 0;
+      margin-top: -10rem;
+      padding-bottom: 5rem; } }
   .about-me__image {
-    float: right;
     transition: transform .3s; }
     .about-me__image .head-shot {
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
       border-radius: 3px; }
+      @media only screen and (max-width: 75em) {
+        .about-me__image .head-shot {
+          height: 45rem; } }
+      @media only screen and (max-width: 56.25em) {
+        .about-me__image .head-shot {
+          height: 35rem; } }
     .about-me__image:hover {
       transform: translateY(-1.5rem) scale(1.03); }
   .about-me__bio {
@@ -246,11 +260,29 @@ body {
   text-align: center;
   padding: 10rem;
   background-color: #eee; }
+  @media only screen and (max-width: 75em) {
+    .projects {
+      padding: 0; } }
+  @media only screen and (max-width: 56.25em) {
+    .projects {
+      padding: 0; } }
+  @media only screen and (max-width: 56.25em) {
+    .projects {
+      padding: 0; } }
 
 .project-image {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   transition: all .2s;
   border-radius: 3px; }
+  @media only screen and (max-width: 75em) {
+    .project-image {
+      height: 22rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .project-image {
+      height: 26rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .project-image {
+      height: 20rem; } }
 
 .project-image:hover {
   transform: translateY(-1rem) scale(1.02); }
@@ -268,18 +300,44 @@ body {
     font-size: 1.8rem;
     line-height: 3rem;
     padding: 5rem 18rem; }
+    @media only screen and (max-width: 75em) {
+      .project-page__description {
+        line-height: 2rem;
+        padding: 5rem 15rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .project-page__description {
+        line-height: 2rem;
+        padding: 5rem 10rem; } }
   .project-page__main-photo {
     width: 65rem;
     height: 40rem;
     margin: 2rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     border-radius: 3px; }
+    @media only screen and (max-width: 75em) {
+      .project-page__main-photo {
+        width: 55rem;
+        height: 35rem;
+        margin: 1rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .project-page__main-photo {
+        width: 35rem;
+        height: 20rem;
+        margin: 1rem; } }
   .project-page__image {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     margin: 5rem;
     border-radius: 3px;
     height: 30rem;
     transition: all .2s; }
+    @media only screen and (max-width: 75em) {
+      .project-page__image {
+        height: 35rem;
+        margin: 4rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .project-page__image {
+        height: 26rem;
+        margin: 3rem; } }
     .project-page__image:hover {
       transform: translateY(-1.2rem) scale(1.02); }
   .project-page__image-container {
@@ -343,12 +401,26 @@ body {
   padding: 10rem;
   text-align: center;
   background-image: linear-gradient(to right, rgba(33, 95, 0, 0.5), rgba(228, 228, 217, 0.5)); }
+  @media only screen and (max-width: 75em) {
+    .resume {
+      padding: 8rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .resume {
+      padding: 6rem; } }
   .resume__image {
     height: 80rem;
     width: 65rem;
     transition: all .2s;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     border-radius: 3px; }
+    @media only screen and (max-width: 75em) {
+      .resume__image {
+        height: 70rem;
+        width: 45rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .resume__image {
+        height: 55rem;
+        width: 35rem; } }
     .resume__image:hover {
       transform: translateY(-1rem) scale(1.02); }
 

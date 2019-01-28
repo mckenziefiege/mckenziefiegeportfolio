@@ -4,22 +4,48 @@
   margin-top: -18rem;
   padding-bottom: 20rem;
 
-  @include respond(tab-port) {
-  padding: 20rem 0;
-}
+    @include respond(tab-land) {
+    padding: 20rem 0;
+    margin-top: -15rem;
+    padding-bottom: 5rem;
+  }
+
+  @include respond (tab-port) {
+    padding: 10rem 0;
+    margin-top: -10rem;
+    padding-bottom: 5rem;
+  }
+
+  @include respond (tab-phone) {
+    padding: 5rem 0;
+    margin-top: 6rem;
+    padding-bottom: 5rem;
+  }
 
   &__content {
 
   }
 
   &__image {
-    float: right;
     transition: transform .3s;
-
 
     .head-shot {
       box-shadow: 0 10px 20px rgba(0,0,0,.2);
       border-radius: 3px;
+
+      @include respond (tab-phone) {
+        height: 18rem;
+      }
+
+      @include respond (tab-land) {
+        height: 45rem;
+      }
+
+      @include respond (tab-port) {
+        height: 35rem;
+      }
+
+
     }
 
     &:hover {
@@ -40,6 +66,12 @@
       margin-bottom: 5rem;
       line-height: 3rem;
       display: inline-block;
+
+      @include respond (tab-phone) {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        line-height: 2rem;
+      }
     }
   }
 }

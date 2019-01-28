@@ -3,12 +3,40 @@
   text-align: center;
   background-image: linear-gradient(to right, rgba(33, 95, 0, 0.5), rgba(228, 228, 217, .5));
 
+
+  @include respond (tab-land) {
+  padding: 8rem;
+  }
+
+  @include respond (tab-port) {
+    padding: 6rem;
+  }
+
+  @include respond (tab-phone) {
+    padding: 4rem;
+  }
+
   &__image {
     height: 80rem;
     width: 65rem;
     transition: all .2s;
     box-shadow: 0 10px 20px rgba(0,0,0,.5);
     border-radius: 3px;
+
+    @include respond (tab-land) {
+      height: 70rem;
+      width: 45rem;
+    }
+
+    @include respond (tab-port) {
+      height: 55rem;
+      width: 35rem;
+    }
+
+    @include respond (tab-phone) {
+      height: 30rem;
+      width: 18rem;
+    }
 
     &:hover {
       transform: translateY(-1rem) scale(1.02);
