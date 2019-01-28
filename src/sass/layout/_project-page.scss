@@ -15,12 +15,12 @@
 
     @include respond (tab-port) {
       line-height: 2rem;
-      padding: 5rem 10rem;
+      padding: 3rem 5rem;
     }
 
     @include respond (tab-phone) {
       line-height: 2rem;
-      padding: 5rem 5rem;
+      padding: 2rem 3rem;
     }
   }
 
@@ -38,7 +38,7 @@
     }
 
     @include respond (tab-port) {
-      width: 35rem;
+      width: 30rem;
       height: 20rem;
       margin: 1rem;
     }
@@ -63,12 +63,12 @@
     }
 
     @include respond (tab-port) {
-      height: 26rem;
+      height: 20rem;
       margin: 3rem;
     }
 
     @include respond (tab-phone) {
-      height: 22rem;
+      height: 18rem;
       margin: 2rem;
     }
 
@@ -78,13 +78,23 @@
   }
 
   &__image-container {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 5rem;
   }
 
   &__tech-stack {
-    padding: 4rem;
+    padding: 3rem;
     background-image: linear-gradient(to right, rgba(33, 95, 0, 0.5), rgba(228, 228, 217, .5));
+
+    @include respond (tab-port) {
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+    }
+
+    @include respond (tab-phone) {
+      padding-top: 1rem;
+      padding-bottom: 3rem;
+    }
   }
 
   &__tech-stack-header {

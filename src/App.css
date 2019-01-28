@@ -230,7 +230,7 @@ body {
           height: 45rem; } }
       @media only screen and (max-width: 56.25em) {
         .about-me__image .head-shot {
-          height: 35rem; } }
+          height: 32rem; } }
     .about-me__image:hover {
       transform: translateY(-1.5rem) scale(1.03); }
   .about-me__bio {
@@ -243,7 +243,7 @@ body {
       display: inline-block; }
 
 .programming-knowledge {
-  padding: 10rem;
+  padding: 5rem;
   background-image: linear-gradient(to right, rgba(33, 95, 0, 0.5), rgba(228, 228, 217, 0.5)); }
 
 .skill-list__skill {
@@ -307,7 +307,7 @@ body {
     @media only screen and (max-width: 56.25em) {
       .project-page__description {
         line-height: 2rem;
-        padding: 5rem 10rem; } }
+        padding: 3rem 5rem; } }
   .project-page__main-photo {
     width: 65rem;
     height: 40rem;
@@ -321,7 +321,7 @@ body {
         margin: 1rem; } }
     @media only screen and (max-width: 56.25em) {
       .project-page__main-photo {
-        width: 35rem;
+        width: 30rem;
         height: 20rem;
         margin: 1rem; } }
   .project-page__image {
@@ -336,16 +336,20 @@ body {
         margin: 4rem; } }
     @media only screen and (max-width: 56.25em) {
       .project-page__image {
-        height: 26rem;
+        height: 20rem;
         margin: 3rem; } }
     .project-page__image:hover {
       transform: translateY(-1.2rem) scale(1.02); }
   .project-page__image-container {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 5rem; }
   .project-page__tech-stack {
-    padding: 4rem;
+    padding: 3rem;
     background-image: linear-gradient(to right, rgba(33, 95, 0, 0.5), rgba(228, 228, 217, 0.5)); }
+    @media only screen and (max-width: 56.25em) {
+      .project-page__tech-stack {
+        padding-top: 2rem;
+        padding-bottom: 4rem; } }
   .project-page__tech-stack-header {
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -419,8 +423,8 @@ body {
         width: 45rem; } }
     @media only screen and (max-width: 56.25em) {
       .resume__image {
-        height: 55rem;
-        width: 35rem; } }
+        height: 48rem;
+        width: 30rem; } }
     .resume__image:hover {
       transform: translateY(-1rem) scale(1.02); }
 

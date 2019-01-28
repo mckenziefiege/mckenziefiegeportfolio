@@ -33,16 +33,17 @@
       box-shadow: 0 10px 20px rgba(0,0,0,.2);
       border-radius: 3px;
 
-      @include respond (tab-phone) {
-        height: 18rem;
-      }
 
       @include respond (tab-land) {
         height: 45rem;
       }
 
       @include respond (tab-port) {
-        height: 35rem;
+        height: 32rem;
+      }
+
+      @include respond (tab-phone) {
+        height: 22rem;
       }
 
 
