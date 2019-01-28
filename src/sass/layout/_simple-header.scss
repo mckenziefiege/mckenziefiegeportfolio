@@ -9,6 +9,10 @@
   text-align: center;
   padding-top: 2rem;
 
+  @include respond (phone) {
+    padding-top: 3.5rem;
+  }
+
   &__text-box {
     text-align: center;
   }

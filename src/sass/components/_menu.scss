@@ -5,6 +5,10 @@
   position: fixed;
   z-index: 1000;
 
+  @include respond(tab-port) {
+    margin: 1rem;
+  }
+
   &__menu {
     font-size: 2rem;
     font-weight: 300;
