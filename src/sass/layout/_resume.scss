@@ -29,13 +29,13 @@
     }
 
     @include respond (tab-port) {
-      height: 55rem;
-      width: 35rem;
+      height: 48rem;
+      width: 30rem;
     }
 
     @include respond (tab-phone) {
-      height: 30rem;
-      width: 18rem;
+      height: 28rem;
+      width: 15rem;
     }
 
     &:hover {
