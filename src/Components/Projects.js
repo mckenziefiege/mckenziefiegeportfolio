@@ -35,7 +35,7 @@ class Projects extends Component {
               <div>
                 <p className="project-title">Novel Finds</p>
                   <Link to="/novel-finds">
-                    <img className="project-image" alt="Novel Finds" src="https://user-images.githubusercontent.com/38592156/49903782-4854b480-fe36-11e8-87c7-08d1befc9b04.png" height="300px"/>
+                    <img className="project-image" alt="Novel Finds" src="https://user-images.githubusercontent.com/38592156/52527615-b6ccbc00-2c99-11e9-9a35-ea3112946b60.png" height="300px"/>
                   </Link>
               </div>
               </div>
