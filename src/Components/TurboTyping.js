@@ -14,12 +14,12 @@ class TurboTyping extends Component {
       <div className="project-page">
         <h2 className="h2-headers">Turbo Typing</h2>
         <div className="link-list">
-          <a target="_blank" rel="noopener noreferrer" className="link-list__link" href="https://github.com/mckenziefiege/speed-typing_frontend">GitHub</a>
-          <a target="_blank" rel="noopener noreferrer" className="link-list__link" href="https://www.youtube.com/watch?v=S0z5vgGLUnI">Video Demo</a>
+          <a target="_blank" rel="noopener noreferrer" className="link-list__link" href="https://github.com/mckenziefiege/turbo-typing-revamped">GitHub</a>
+          <a target="_blank" rel="noopener noreferrer" className="link-list__link" href="https://youtu.be/wV_6vpW9TkA">Video Demo</a>
         </div>
 
         <div>
-          <img className="project-page__main-photo" alt="Turbo Typing 1" src="https://user-images.githubusercontent.com/38592156/49956937-72f54a80-fed4-11e8-8e18-efea50917fdc.png"/>
+          <img className="project-page__main-photo" alt="Turbo Typing 1" src="https://user-images.githubusercontent.com/38592156/53203236-9fc18e80-35f6-11e9-9a5a-75c9a3312d6f.png"/>
         </div>
         <div className="project-page__description">
           <p>
@@ -38,9 +38,9 @@ class TurboTyping extends Component {
         </div>
 
         <div className="project-page__image-container">
-          <img className="project-page__image" alt="Turbo Typing 2" src="https://media.giphy.com/media/9xph4cY3RdsrTDzgbK/giphy.gif" />
-          <img className="project-page__image" alt="Turbo Typing 3" src="https://media.giphy.com/media/8mh9E4P4c4Oglyjpsa/giphy.gif" />
-          <img className="project-page__image" alt="Turbo Typing 4" src="https://media.giphy.com/media/6y1VGBsteUv9RGEvvw/giphy.gif" />
+          <img className="project-page__image" alt="Turbo Typing 2" src="https://media.giphy.com/media/WgO3qHYgX7tudixeFR/giphy.gif" />
+          <img className="project-page__image" alt="Turbo Typing 3" src="https://media.giphy.com/media/93j381PUFgSuexunYG/giphy.gif" />
+          <img className="project-page__image" alt="Turbo Typing 4" src="https://media.giphy.com/media/XKTGaRiluy4dIYQema/giphy.gif" />
         </div>
       </div>
       </div>

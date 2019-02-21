@@ -24,7 +24,7 @@ class Projects extends Component {
               <div>
                 <p className="project-title">Turbo Typing</p>
                   <Link to="/turbo-typing">
-                    <img className="project-image" alt="Turbo Typing" src="https://user-images.githubusercontent.com/38592156/49956937-72f54a80-fed4-11e8-8e18-efea50917fdc.png" height="300px"/>
+                    <img className="project-image" alt="Turbo Typing" src="https://user-images.githubusercontent.com/38592156/53203236-9fc18e80-35f6-11e9-9a5a-75c9a3312d6f.png" height="300px"/>
                   </Link>
                 </div>
               </div>
